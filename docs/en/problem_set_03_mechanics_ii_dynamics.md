@@ -13,6 +13,7 @@ $$
 $$
 
 The body starts with an initial velocity $\vec v(0) = (1, -1)\ \mathrm{\frac{m}{s}}$ from the point $\vec r(0)=(0,0)\ \mathrm{m}$. 
+
 * Determine $\vec a(t)$.
 * Determine $\vec v(t)$.
 * Determine $\vec r(t)$.
@@ -25,6 +26,7 @@ The body starts with an initial velocity $\vec v(0) = (1, -1)\ \mathrm{\frac{m}{
 ## Problem 2 – Inclined plane with friction
 
 A body of mass $m$ slides down an inclined plane with an angle $\alpha$. The coefficient of kinetic friction is $\mu$. 
+
 * Determine all forces acting on the body.
 * Derive the acceleration $\vec a$.
 * Calculate the time of descent from height $h$.
@@ -63,6 +65,7 @@ A body falls from a height $h$ without air resistance.
 ## Problem 5 – Momentum and one-dimensional head-on collision
 
 Two bodies with masses $m_1, m_2$ move along a single straight line. The collision is elastic. 
+
 * Write down the principles of conservation of momentum and energy.
 * Determine the velocities after the collision.
 * Consider the case $m_1 = m_2$.
