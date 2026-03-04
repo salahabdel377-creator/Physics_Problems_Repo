@@ -2431,18 +2431,18 @@
 <hr />
 <h2 id="problem-1-ptolemys-model">Problem 1 – Ptolemy's Model</h2>
 <ol>
-<li>Write the motion of a planet as a sum:</li>
+<li>Write the motion of a planet as a sum:<ul>
 <li>motion along the deferent (main circle),</li>
-<li>motion along the epicycle.</li>
-</ol>
-<p>Example parametric representation:</p>
-<p>$$
+<li>motion along the epicycle.
+   Example parametric representation:
+   $$
    x(t) = R \cos(\omega t) + r \cos(\Omega t)
    $$
    $$
    y(t) = R \sin(\omega t) + r \sin(\Omega t)
-   $$</p>
-<ol>
+   $$</li>
+</ul>
+</li>
 <li>Derive the parametric equations of the trajectory.</li>
 <li>Investigate the condition for retrograde motion to occur.</li>
 <li>Determine the moments of change in the direction of motion in angular projection.</li>
@@ -2456,21 +2456,17 @@
 <hr />
 <h2 id="problem-2-copernicuss-model">Problem 2 – Copernicus's Model</h2>
 <ol>
-<li>Implement the motion of two planets in circles around the Sun:</li>
-</ol>
-<p>$$
+<li>Implement the motion of two planets in circles around the Sun:
+   $$
    \vec r_Z(t) = R_Z (\cos \omega_Z t, \sin \omega_Z t)
    $$
    $$
    \vec r_M(t) = R_M (\cos \omega_M t, \sin \omega_M t)
-   $$</p>
-<ol>
-<li>Determine the position of Mars relative to Earth:</li>
-</ol>
-<p>$$
+   $$</li>
+<li>Determine the position of Mars relative to Earth:
+   $$
    \vec r_{M/Z}(t) = \vec r_M(t) - \vec r_Z(t)
-   $$</p>
-<ol>
+   $$</li>
 <li>Identify the moments of retrogradation.</li>
 <li>Compare the relative trajectory with the epicyclic model.</li>
 </ol>
@@ -2491,19 +2487,15 @@
 <hr />
 <h2 id="problem-4-keplers-first-and-second-laws">Problem 4 – Kepler's First and Second Laws</h2>
 <ol>
-<li>Implement an elliptical orbit:</li>
-</ol>
-<p>$$
+<li>Implement an elliptical orbit:
+   $$
    r(\theta) = \frac{a(1-e^2)}{1 + e \cos \theta}
-   $$</p>
-<ol>
+   $$</li>
 <li>Vary the eccentricity <span class="arithmatex">\(e\)</span> and observe the shape of the trajectory.</li>
-<li>Numerically calculate the area swept out in equal time intervals:</li>
-</ol>
-<p>$$
+<li>Numerically calculate the area swept out in equal time intervals:
+   $$
    A = \frac{1}{2} \int r^2 \, d\theta
-   $$</p>
-<ol>
+   $$</li>
 <li>Verify the law of equal areas.</li>
 </ol>
 <p><strong>HTML:</strong></p>
@@ -2516,45 +2508,35 @@
 <h2 id="problem-5-keplers-third-law-data-analysis">Problem 5 – Kepler's Third Law (data analysis)</h2>
 <ol>
 <li>Load data for several planets <span class="arithmatex">\((a, T)\)</span>.</li>
-<li>Plot the relationship:</li>
-</ol>
-<p>$$
+<li>Plot the relationship:
+   $$
    T^2 \text{ as a function of } a^3
-   $$</p>
-<ol>
+   $$</li>
 <li>Perform linear regression.</li>
-<li>Estimate the proportionality constant from the relation:</li>
-</ol>
-<p>$$
+<li>Estimate the proportionality constant from the relation:
+   $$
    T^2 = C a^3
-   $$</p>
-<ol>
+   $$</li>
 <li>Evaluate the goodness of fit (<span class="arithmatex">\(R^2\)</span>).</li>
 </ol>
 <hr />
 <h2 id="problem-6-two-body-motion-and-the-barycenter">Problem 6 – Two-body motion and the barycenter</h2>
 <ol>
-<li>Define the center of mass:</li>
-</ol>
-<p>$$
+<li>Define the center of mass:
+   $$
    \vec R = \frac{m_1 \vec r_1 + m_2 \vec r_2}{m_1 + m_2}
-   $$</p>
-<ol>
-<li>Show that for an isolated system:</li>
-</ol>
-<p>$$
+   $$</li>
+<li>Show that for an isolated system:
+   $$
    m_1 \vec r_1 + m_2 \vec r_2 = \text{const}
-   $$</p>
-<ol>
-<li>Write the equations of motion:</li>
-</ol>
-<p>$$
+   $$</li>
+<li>Write the equations of motion:
+   $$
    m_1 \ddot{\vec r}_1 = - G \frac{m_1 m_2}{|\vec r_1 - \vec r_2|^3} (\vec r_1 - \vec r_2)
    $$
    $$
    m_2 \ddot{\vec r}_2 = - G \frac{m_1 m_2}{|\vec r_2 - \vec r_1|^3} (\vec r_2 - \vec r_1)
-   $$</p>
-<ol>
+   $$</li>
 <li>Investigate the dependence of the trajectory on the mass ratio <span class="arithmatex">\(m_1/m_2\)</span>.</li>
 </ol>
 <p><strong>HTML:</strong></p>
@@ -2605,12 +2587,10 @@ U(r) = -\frac{GMm}{r} + \frac{\alpha}{r^2}
 <hr />
 <h2 id="problem-9-three-body-system-classical-problem">Problem 9 – Three-body system (classical problem)</h2>
 <ol>
-<li>Write the equations of motion for three masses:</li>
-</ol>
-<div class="arithmatex">\[
-m_i \ddot{\vec r}_i = \sum_{j \ne i} -G \frac{m_i m_j}{|\vec r_i - \vec r_j|^3} (\vec r_i - \vec r_j)
-\]</div>
-<ol>
+<li>Write the equations of motion for three masses:
+$$
+m_i \ddot{\vec r}<em>i = \sum</em>{j \ne i} -G \frac{m_i m_j}{|\vec r_i - \vec r_j|^3} (\vec r_i - \vec r_j)
+$$</li>
 <li>Implement a numerical method (e.g., RK4).</li>
 <li>Investigate the stability of the configuration.</li>
 </ol>
