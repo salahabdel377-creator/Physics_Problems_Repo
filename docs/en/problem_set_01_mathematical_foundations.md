@@ -1,5 +1,5 @@
 
----
+
 
 ## Problem 1 – Vectors and linear transformations
 
@@ -344,4 +344,6 @@ Verify: $\frac{d\vec{L}}{dt} = \frac{d}{dt}(mR^2\omega\hat{k}) = 0$. Therefore, 
 ---
 
 ### **Interactive Visualization Components (Problems 6-9)**
+
+
 
