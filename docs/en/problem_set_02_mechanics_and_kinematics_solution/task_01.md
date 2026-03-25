@@ -39,5 +39,8 @@
    plt.legend()
    plt.xlabel('Time (s)')
    plt.show()
+
    ```
+   <img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/78bf838b-1921-4bf6-9b27-89274a2e6195" />
+
 
