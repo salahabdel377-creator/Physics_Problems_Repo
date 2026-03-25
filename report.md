@@ -91,6 +91,26 @@ Here are the complete solutions to your kinematics problem set, formatted in Mar
   $$
   *(The trajectory is a semi-cubical parabola).*
 
+* **Visualization (Python/Matplotlib snippet):**
+  ```python
+  import numpy as np
+  import matplotlib.pyplot as plt
+
+  t = np.linspace(0, 2, 500)
+  x = 2 * t**2
+  y = 3 * t**3
+
+  plt.figure(figsize=(8, 5))
+  plt.plot(x, y, 'b-', lw=2, label='Trajectory')
+  plt.title('Trajectory: Semicubical Parabola')
+  plt.xlabel('x(t)')
+  plt.ylabel('y(t)')
+  plt.grid(True, linestyle='--')
+  plt.legend()
+  plt.show()
+  ```
+  ![Trajectory: Semicubical Parabola](semicubical_parabola.png)
+
 * **Velocity and Acceleration:**
   $$
   \vec{v}(t) = \left( \frac{dx}{dt}, \frac{dy}{dt} \right) = (4t, 9t^2)
