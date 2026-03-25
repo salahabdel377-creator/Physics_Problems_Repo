@@ -23,3 +23,5 @@
 
 * **Is the acceleration constant?**
   No. While the $x$-component is constant, the $y$-component increases linearly with time.
+
+---
